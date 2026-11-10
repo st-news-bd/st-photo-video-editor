@@ -1,2 +1,0 @@
-User-agent: *
-Sitemap: https://st-news-bd.github.io/st-photo-video-editor/sitemap.xml
