@@ -1,5 +1,5 @@
 /* ST Photo Video Editor — service worker (offline) */
-var CACHE = "st-editor-v12";
+var CACHE = "st-editor-v13";
 var CORE = ["./", "index.html", "assets/manifest.webmanifest", "assets/icon-192.png", "assets/icon-512.png"];
 self.addEventListener("install", function (e) {
   e.waitUntil(caches.open(CACHE).then(function (c) { return c.addAll(CORE); }).then(function () { return self.skipWaiting(); }));
